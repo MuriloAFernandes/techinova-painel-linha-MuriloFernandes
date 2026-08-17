@@ -31,14 +31,17 @@ depois: function converterTemperatura(leitura) {
 ## M3 - O segredo vazado
 
 **O que voce esperava ver no `git status` e o que apareceu:**
-Achei que seria feito um código base para depois do comando, mas apareceu um erro dizendo que não havia 
+Achei que seria feito um código base para depois do comando, mas apareceu um erro dizendo que não havia oque ser commitado pois ele excluiu
 
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
 Responda em duas linhas, explicando o motivo:**
-
+Sim ainda dá para ler a chave, pois o git salva todas as alterações 
+mesmo com os arquivos escondidos ou apagados eles ficam guardados.
 ---
 
 ## M4 - Colisao
+
+**NÃO CONSEGUIMOS FAZER O FORK COLABORADO**
 
 **O que significavam os marcadores que apareceram dentro do arquivo:**
 
