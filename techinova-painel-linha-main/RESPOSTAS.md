@@ -1,24 +1,29 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
-Dupla (M2 em diante):
+Nome:Murilo Abila Fernandes
+Matricula: Não tenho acesso
+Dupla (M2 em diante):Lucas Daniel Rodrigues
 
 ---
 
 ## M2 - Quem quebrou o painel
 
 **Hash curto do commit que introduziu o erro:**
-
+7ad68265c1a0f5701f137ba4f0281126f2b7e3cb
 **Autor:**
-
+Diego Ferraz
 **Data:**
-
+22 maio
 **Linha alterada (antes e depois):**
 
 ```
-antes:
-depois:
+antes:  function converterTemperatura(leitura) {
+  return (leitura - 32) * 5 / 9;
+}
+
+depois: function converterTemperatura(leitura) {
+  return leitura * 9 / 5 + 32;
+}
 ```
 
 ---
@@ -26,6 +31,7 @@ depois:
 ## M3 - O segredo vazado
 
 **O que voce esperava ver no `git status` e o que apareceu:**
+Achei que seria feito um código base para depois do comando, mas apareceu um erro dizendo que não havia 
 
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
 Responda em duas linhas, explicando o motivo:**
